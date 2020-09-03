@@ -8,9 +8,22 @@ public class Jeroo extends JerooBase {
     * This method should have the Jeroo pickup all the flowers on the staircase.
     * IMPORTANT:  It needs to call helper method(s).
     */
-    public void climbStairs() {
-        
-    }
+
+  public void climbStairs() {
+  oneStair();
+  oneStair();
+  oneStair();
+  oneStair();
+}
+  public void oneStair() {
+  hop();
+  turn(RIGHT);
+  hop();
+  pick();
+  turn(LEFT);
+}
+}
+    
     
     // Put any helpermethods here.  Be sure to comment the helper methods using /** */
     
